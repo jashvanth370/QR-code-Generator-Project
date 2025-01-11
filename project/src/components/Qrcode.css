@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.app-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.input-label{
+    display: block;
+    margin: 8px;
+    color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="text"]{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+button{
+    color: aliceblue;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+
+}
+
+.GenerateQR{
+    background-color: #3498db;
+}
+
+.DownloadQR{
+    background-color: rgb(13, 171, 13);
+    margin-left: 10px;
+}
+
+.DownloadQR:hover{
+    background-color: green;
+}
+
+.GenerateQR:disabled{
+    background-color: aliceblue;
+    cursor: not-allowed;
+}
+
+.app-container h1{
+    font-weight: 400;
+    font-size: 18px;
+    color: #3498db;
+    border-bottom: 1px solid #ccc;
+}
